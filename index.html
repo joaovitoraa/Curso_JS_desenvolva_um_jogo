@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Início</title>
+</head>
+
+<body>
+  <h1>Meu Primeiro Teste!</h1>
+  <br>
+
+
+  <script>
+    function pulaLinha() { // não recebe parametro
+      document.write("<br>");
+      document.write("<br>");
+    }
+    function mostra(frase) { //recebe parametro
+      document.write(frase);
+      pulaLinha();
+    }
+    mostra("Olá pessoal");
+    var ano = 2016; //var (varaiavel) {tudo aquilo que varia}
+
+    mostra("Flávio tem " + (ano - 1977) + " anos");
+    mostra("Joaquim tem " + (ano - 1996) + " anos");
+    ano = 2017;
+    mostra("Barney tem " + (ano - 1976) + " anos");
+
+
+
+  </script>
+</body>
+
+</html>
