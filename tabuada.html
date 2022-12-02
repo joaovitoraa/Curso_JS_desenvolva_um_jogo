@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ano Copa</title>
+  <title>Tabuada</title>
 </head>
 
 <body>
@@ -16,14 +16,13 @@
       document.write(frase);
       pulaLinha();
     }
-    var limite = parseInt(prompt("Entre com a data limite "));
-    var anoCopa = 1930;
+    var multiplicador = 1;
 
-    while (anoCopa <= limite) {
-      mostra("Teve copa em: " + anoCopa);
-      anoCopa = anoCopa + 4;
+    while (multiplicador <= 10) {
+
+      mostra(7 * multiplicador);
+      multiplicador = multiplicador + 1;
     }
-    mostra("FIM");
 
   </script>
 </body>
