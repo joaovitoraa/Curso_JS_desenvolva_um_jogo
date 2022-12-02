@@ -1,1 +1,1 @@
-# Curso_JS_desenvolva_um_jogo
+# Javascript e Html: desenvolva um jogo e pratique lógica de programação.
